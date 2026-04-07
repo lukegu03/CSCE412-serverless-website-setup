@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Technical Portfolio</title>
+        <!-- link to style1 css file -->
+        <link id = "mainStyleSheet" rel="stylesheet" href="style1.css" />
+    </head>
+    <body>
+
+        <div class="portfolio-image"></div>
+
+        <!-- NAVIGATION DIV -->
+        <div class = "header-block">
+            <div class = "nav-bar">
+                <a href="index.html"><button>Landing Area</button></a>
+                <a href="portfolio.html"><button>Technical Portfolio</button></a>
+                <a href="qualifications.html"><button>Qualifications</button></a>
+                <a href="service.html"><button>Service</button></a>
+                <a href="genai.html"><button>AI-Generated Page</button></a>
+            </div>
+        </div>
+
+        <h3 class="portfolioheader">ERCOT - Market Analysis and Validation Engineering Internship</h3>
+        <div class="internship-section">
+            <p>
+                During the summer of 2024, I had the opporturtunity to take part in a 10-week program as a Market Analysis and 
+                Validation Engineering Intern at the <a href="https://www.ercot.com/">Electric Reliability Council of Texas, Inc. (ERCOT)</a>. During my time at ERCOT I analyzed
+                large, complex datasets and extracted meaning insights from that data. My role consisted of condensing said data into a more
+                appropriate size using Python, and then graphing that data using a Python graphing package called Ploty. I then created
+                a webapp dashboard where I hosted my graphs and findings. To accomplish this I used the Python framework <a href="https://streamlit.io/">Streamlit</a>.
+                In addition to this project, I took on a side project, investigating potential frameworks for the redesign of one
+                of ERCOT's business intelligence tools. During this project I investigated <a href="https://www.djangoproject.com/">Django</a>, a robust Python framework that allows for 
+                efficient and clean web design. Finally, at the end of my internship I presented both of my projects to C-level executives. 
+                <br><br>
+                There were many things I learned at ERCOT that I plan to take with me as a continue to grow as an engineer and software 
+                developer. Given the industry ERCOT is in, I learned much more about the energy market and how energy actually gets from the plant
+                to your door. I also learned the importance of proper code documentation during my time at ERCOT. Since I was the only member 
+                working on my project, it was important that I properly document my code so that my team could properly use my tool after
+                my internship ended. ERCOT also gave me exposure to data analytics and data visualization, two areas I have had very little 
+                experience with in school. 
+            </p>
+            <img src = "resource/ercotselfie.JPEG" alt = "powerlines">
+        </div>
+
+        <h3 class="portfolioheader">TAMUhack - Comfort Cuff</h3>
+        <div class ="project-section">
+            <p>
+                Comfort Cuff is a project that I created along with other computer engineering and electronic 
+                systems engineering technology (ESET) majors. This project was developed during <a href="https://tamuhack.org/">Tamuhack</a>, 
+                one of the largest annual hackathons in Texas, hosted at Texas A&M University. A hackathon is where talented engineers
+                are given 24-48 hours to form groups and collabratively create a product that is then pitched to judges.
+                My team and I developd an arm-strap for an alternative blood pressure
+                reading system. This system used motors and pulleys as opposed to the current air pressure system. This product was 
+                made in an attempt reduce a condition called "white coat hypertension" which can lead to inaccurate blood pressure readings.
+                Comfort Cuff used an Arduino to communicate with a bluetooth module to appropriate tighten and loosen the pulley system around
+                the user's arm.
+            </p>
+        </div>
+
+        <div class = "footer">
+            <div class="socialbuttons">
+                <a href="https://discordapp.com/users/1146823396039065695"><img src = "resource/discord-logo-discord-icon-transparent-free-png.webp" alt = "discord logo"></a>
+                <a href = "https://www.linkedin.com/in/luke-gutierrez/"><img src = "resource/linkedin-logo-linkedin-icon-transparent-free-png.webp" alt = "linkedin"></a>
+            </div> 
+    
+            <div class="styletoggle">
+                <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+            </div>  
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
